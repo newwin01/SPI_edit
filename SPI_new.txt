@@ -1,0 +1,2202 @@
+debug : mode defects4j-batch
+| SPI  | SPI from directory /home/newwin0189/SPI is going to be launched.
+| SPI  | SPI byproducts will be made in directory /home/newwin0189/SPI/temp_result.
+| SPI  | SPI launching with patch strategies ('flfreq',).
+| SPI  | SPI launching with concretization strategies ('tcvfl',).
+| SPI  | Have been requested to rebuild all submodules. Commencing...
+| SPI  | Successfully rebuilt submodule ChangeCollector.
+| SPI  | Successfully rebuilt submodule LCE.
+| SPI  | All submodules have been successfully rebuilt.
+
+| SPI  | Strategy combination 'flfreq + tcvfl' set.
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #1 | Begins to look for patch for Closure-1...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #1 | Hash ID generated as batch_996500_Closure-1
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #1 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-1.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #1 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #1 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #1 / Step 3. Running ConFix...
+Checking out 1dfad504 to /data/sechang/temp/batch_996500_Closure-1/Closure. OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 1dfad504:2353d807..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-1b...................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #1 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #1 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #1 | Elapsed Time : 0:04:02.633645
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #2 | Begins to look for patch for Closure-5...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #2 | Hash ID generated as batch_996500_Closure-5
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #2 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-5.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #2 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #2 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #2 / Step 3. Running ConFix...
+Checking out 59eec92e to /data/sechang/temp/batch_996500_Closure-5/Closure. OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 59eec92e:722d1192..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-5b...................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #2 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #2 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #2 | Elapsed Time : 0:04:02.695035
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #3 | Begins to look for patch for Closure-10...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #3 | Hash ID generated as batch_996500_Closure-10
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #3 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-10.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #3 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #3 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #3 / Step 3. Running ConFix...
+Checking out 0884a4cb to /data/sechang/temp/batch_996500_Closure-10/Closure OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 0884a4cb:f681fd80..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-10b..................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #3 | [candidate metadata] > ConFix patch generation success
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #3 | Finished, and found a patch!
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #3 | === diff_file.txt starts ===
+differences made in src/com/google/javascript/jscomp/NodeUtil.java:
+diff --git a/home/newwin0189/SPI/temp_result/batch_996500_Closure-10/Closure/src/com/google/javascript/jscomp/NodeUtil.java b/home/newwin0189/SPI/temp_result/batch_996500_Closure-10/Closure/patches/0/src/com/google/javascript/jscomp/NodeUtil.java
+index eef2792..eeb12d4 100644
+--- a/home/newwin0189/SPI/temp_result/batch_996500_Closure-10/Closure/src/com/google/javascript/jscomp/NodeUtil.java
++++ b/home/newwin0189/SPI/temp_result/batch_996500_Closure-10/Closure/patches/0/src/com/google/javascript/jscomp/NodeUtil.java
+@@ -1414,7 +1414,7 @@ public final class NodeUtil {
+ 
+   static boolean mayBeString(Node n, boolean recurse) {
+     if (recurse) {
+-      return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
++      return anyResultsMatch(n, MAY_BE_STRING_PREDICATE);
+     } else {
+       return mayBeStringHelper(n);
+     }
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #3 | === diff_file.txt ends ===
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #3 | Elapsed Time : 0:43:00.351125
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #4 | Begins to look for patch for Closure-12...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #4 | Hash ID generated as batch_996500_Closure-12
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #4 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-12.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #4 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #4 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #4 / Step 3. Running ConFix...
+Checking out d06ac163 to /data/sechang/temp/batch_996500_Closure-12/Closure OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff d06ac163:919fda93..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-12b..................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #4 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #4 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #4 | Elapsed Time : 0:26:50.229961
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #5 | Begins to look for patch for Closure-13...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #5 | Hash ID generated as batch_996500_Closure-13
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #5 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-13.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #5 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #5 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #5 / Step 3. Running ConFix...
+Checking out d6d733f4 to /data/sechang/temp/batch_996500_Closure-13/Closure OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff d6d733f4:8b8c01a3..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-13b..................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #5 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #5 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #5 | Elapsed Time : 0:12:16.159901
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #6 | Begins to look for patch for Closure-14...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #6 | Hash ID generated as batch_996500_Closure-14
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #6 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-14.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #6 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #6 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #6 / Step 3. Running ConFix...
+Checking out 4b15b25f to /data/sechang/temp/batch_996500_Closure-14/Closure OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 4b15b25f:b7c2861b..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-14b..................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #6 | [candidate metadata] > ConFix patch generation success
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #6 | Finished, and found a patch!
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #6 | === diff_file.txt starts ===
+differences made in src/com/google/javascript/jscomp/ControlFlowAnalysis.java:
+diff --git a/home/newwin0189/SPI/temp_result/batch_996500_Closure-14/Closure/src/com/google/javascript/jscomp/ControlFlowAnalysis.java b/home/newwin0189/SPI/temp_result/batch_996500_Closure-14/Closure/patches/0/src/com/google/javascript/jscomp/ControlFlowAnalysis.java
+index 5c6927f..980deff 100644
+--- a/home/newwin0189/SPI/temp_result/batch_996500_Closure-14/Closure/src/com/google/javascript/jscomp/ControlFlowAnalysis.java
++++ b/home/newwin0189/SPI/temp_result/batch_996500_Closure-14/Closure/patches/0/src/com/google/javascript/jscomp/ControlFlowAnalysis.java
+@@ -764,7 +764,7 @@ final class ControlFlowAnalysis implements Callback, CompilerPass {
+         } else if (parent.getLastChild() == node){
+           if (cfa != null) {
+             for (Node finallyNode : cfa.finallyMap.get(parent)) {
+-              cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);
++              cfa.createEdge(fromNode, Branch.ON_EX, finallyNode);
+             }
+           }
+           return computeFollowNode(fromNode, parent, cfa);
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #6 | === diff_file.txt ends ===
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #6 | Elapsed Time : 0:10:27.491211
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #7 | Begins to look for patch for Closure-15...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #7 | Hash ID generated as batch_996500_Closure-15
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #7 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-15.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #7 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #7 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #7 / Step 3. Running ConFix...
+Checking out 968b3f46 to /data/sechang/temp/batch_996500_Closure-15/Closure OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 968b3f46:f9fbad23..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-15b..................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #7 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #7 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #7 | Elapsed Time : 0:04:10.261362
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #8 | Begins to look for patch for Closure-18...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #8 | Hash ID generated as batch_996500_Closure-18
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #8 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-18.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #8 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #8 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #8 / Step 3. Running ConFix...
+Checking out ea119a2d to /data/sechang/temp/batch_996500_Closure-18/Closure OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff ea119a2d:686146c4..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-18b..................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at com.github.thwak.confix.pool.MVTManager.collectImportNames(MVTManager.java:159)
+	at com.github.thwak.confix.pool.MVTManager.getType(MVTManager.java:149)
+	at com.github.thwak.confix.pool.MVTManager.getVariable(MVTManager.java:57)
+	at com.github.thwak.confix.tree.TreeUtils.normalize(TreeUtils.java:310)
+	at com.github.thwak.confix.tree.TreeUtils.normalize(TreeUtils.java:292)
+	at com.github.thwak.confix.pool.Converter.convert(Converter.java:383)
+	at com.github.thwak.confix.pool.Converter.convert(Converter.java:295)
+	at com.github.thwak.confix.pool.ChangePoolGenerator.collect(ChangePoolGenerator.java:92)
+	at com.github.thwak.confix.pool.ChangePoolGenerator.collect(ChangePoolGenerator.java:66)
+	at com.github.thwak.confix.main.ConFix.setPoolFromSimFinResults(ConFix.java:418)
+	at com.github.thwak.confix.main.ConFix.main(ConFix.java:122)
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ! ConFix Launch failed.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #8 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #8 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #8 | Elapsed Time : 1:29:09.008646
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #9 | Begins to look for patch for Closure-20...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #9 | Hash ID generated as batch_996500_Closure-20
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #9 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-20.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #9 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #9 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #9 / Step 3. Running ConFix...
+Checking out ebf229b0 to /data/sechang/temp/batch_996500_Closure-20/Closure OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff ebf229b0:7e98b9c9..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-20b..................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #9 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #9 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #9 | Elapsed Time : 0:20:59.083085
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #10 | Begins to look for patch for Closure-28...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #10 | Hash ID generated as batch_996500_Closure-28
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #10 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-28.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #10 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #10 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #10 / Step 3. Running ConFix...
+Checking out 59dbb7a2 to /data/sechang/temp/batch_996500_Closure-28/Closure OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 59dbb7a2:5c46a579..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-28b..................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #10 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #10 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #10 | Elapsed Time : 0:03:55.411298
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #11 | Begins to look for patch for Closure-31...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #11 | Hash ID generated as batch_996500_Closure-31
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #11 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-31.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #11 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #11 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #11 / Step 3. Running ConFix...
+Checking out 0a670cb5 to /data/sechang/temp/batch_996500_Closure-31/Closure OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 0a670cb5:82dd7814..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-31b..................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #11 | [candidate metadata] > ConFix patch generation success
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #11 | Finished, and found a patch!
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #11 | === diff_file.txt starts ===
+differences made in src/com/google/javascript/jscomp/Compiler.java:
+diff --git a/home/newwin0189/SPI/temp_result/batch_996500_Closure-31/Closure/src/com/google/javascript/jscomp/Compiler.java b/home/newwin0189/SPI/temp_result/batch_996500_Closure-31/Closure/patches/0/src/com/google/javascript/jscomp/Compiler.java
+index b76bbb5..952600d 100644
+--- a/home/newwin0189/SPI/temp_result/batch_996500_Closure-31/Closure/src/com/google/javascript/jscomp/Compiler.java
++++ b/home/newwin0189/SPI/temp_result/batch_996500_Closure-31/Closure/patches/0/src/com/google/javascript/jscomp/Compiler.java
+@@ -1282,7 +1282,7 @@ public class Compiler extends AbstractCompiler {
+ 
+       // Check if the sources need to be re-ordered.
+       if (options.dependencyOptions.needsManagement() &&
+-          !options.skipAllPasses &&
++          !options.markAsCompiled &&
+           options.closurePass) {
+         for (CompilerInput input : inputs) {
+           // Forward-declare all the provided types, so that they
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #11 | === diff_file.txt ends ===
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #11 | Elapsed Time : 0:14:07.475770
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #12 | Begins to look for patch for Closure-33...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #12 | Hash ID generated as batch_996500_Closure-33
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #12 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-33.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #12 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #12 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #12 / Step 3. Running ConFix...
+Checking out 382422ad to /data/sechang/temp/batch_996500_Closure-33/Closure OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 382422ad:24c113d3..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-33b..................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #12 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #12 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #12 | Elapsed Time : 0:04:10.571526
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #13 | Begins to look for patch for Closure-36...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #13 | Hash ID generated as batch_996500_Closure-36
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #13 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-36.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #13 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #13 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #13 / Step 3. Running ConFix...
+Checking out be397ee0 to /data/sechang/temp/batch_996500_Closure-36/Closure OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff be397ee0:c5ec81dc..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-36b..................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at com.github.thwak.confix.tree.Node.copy(Node.java:180)
+	at com.github.thwak.confix.tree.TreeUtils.deepCopy(TreeUtils.java:448)
+	at com.github.thwak.confix.tree.TreeUtils.deepCopy(TreeUtils.java:450)
+	at com.github.thwak.confix.tree.TreeUtils.deepCopy(TreeUtils.java:450)
+	at com.github.thwak.confix.tree.TreeUtils.deepCopy(TreeUtils.java:450)
+	at com.github.thwak.confix.tree.TreeUtils.deepCopy(TreeUtils.java:450)
+	at com.github.thwak.confix.tree.TreeUtils.deepCopy(TreeUtils.java:450)
+	at com.github.thwak.confix.tree.TreeUtils.deepCopy(TreeUtils.java:450)
+	at com.github.thwak.confix.tree.TreeUtils.deepCopy(TreeUtils.java:450)
+	at com.github.thwak.confix.tree.TreeUtils.deepCopy(TreeUtils.java:450)
+	at com.github.thwak.confix.pool.Converter.convert(Converter.java:374)
+	at com.github.thwak.confix.pool.Converter.convert(Converter.java:295)
+	at com.github.thwak.confix.pool.ChangePoolGenerator.collect(ChangePoolGenerator.java:92)
+	at com.github.thwak.confix.pool.ChangePoolGenerator.collect(ChangePoolGenerator.java:66)
+	at com.github.thwak.confix.main.ConFix.setPoolFromSimFinResults(ConFix.java:418)
+	at com.github.thwak.confix.main.ConFix.main(ConFix.java:122)
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ! ConFix Launch failed.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #13 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #13 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #13 | Elapsed Time : 0:24:59.820283
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #14 | Begins to look for patch for Closure-38...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #14 | Hash ID generated as batch_996500_Closure-38
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #14 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-38.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #14 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #14 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #14 / Step 3. Running ConFix...
+Checking out 8cf08115 to /data/sechang/temp/batch_996500_Closure-38/Closure OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 8cf08115:f067d0e1..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-38b..................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #14 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #14 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #14 | Elapsed Time : 0:19:23.639379
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #15 | Begins to look for patch for Closure-51...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #15 | Hash ID generated as batch_996500_Closure-51
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #15 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-51.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #15 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #15 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #15 / Step 3. Running ConFix...
+Checking out a02241e5 to /data/sechang/temp/batch_996500_Closure-51/Closure OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff a02241e5:44c2d711..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-51b..................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #15 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #15 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #15 | Elapsed Time : 0:14:49.688942
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #16 | Begins to look for patch for Closure-52...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #16 | Hash ID generated as batch_996500_Closure-52
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #16 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-52.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #16 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #16 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #16 / Step 3. Running ConFix...
+Checking out 5909c3db to /data/sechang/temp/batch_996500_Closure-52/Closure OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 5909c3db:d7907296..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-52b..................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #16 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #16 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #16 | Elapsed Time : 0:11:34.064800
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #17 | Begins to look for patch for Closure-55...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #17 | Hash ID generated as batch_996500_Closure-55
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #17 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-55.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #17 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #17 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #17 / Step 3. Running ConFix...
+Checking out f2c0cb1f to /data/sechang/temp/batch_996500_Closure-55/Closure OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff f2c0cb1f:1d13eac7..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-55b..................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #17 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #17 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #17 | Elapsed Time : 0:07:10.136435
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #18 | Begins to look for patch for Closure-57...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #18 | Hash ID generated as batch_996500_Closure-57
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #18 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-57.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #18 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #18 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #18 / Step 3. Running ConFix...
+Checking out f759f431 to /data/sechang/temp/batch_996500_Closure-57/Closure OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff f759f431:2d3b9a6c..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-57b..................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #18 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #18 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #18 | Elapsed Time : 0:11:10.551254
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #19 | Begins to look for patch for Closure-59...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #19 | Hash ID generated as batch_996500_Closure-59
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #19 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-59.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #19 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #19 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #19 / Step 3. Running ConFix...
+Checking out 49b4ef31 to /data/sechang/temp/batch_996500_Closure-59/Closure OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 49b4ef31:5331b915..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-59b..................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #19 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #19 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #19 | Elapsed Time : 0:11:45.777687
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #20 | Begins to look for patch for Closure-61...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #20 | Hash ID generated as batch_996500_Closure-61
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #20 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-61.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #20 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #20 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #20 / Step 3. Running ConFix...
+Checking out 34e4616a to /data/sechang/temp/batch_996500_Closure-61/Closure OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 34e4616a:bac71221..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-61b..................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #20 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #20 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #20 | Elapsed Time : 0:04:11.712000
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #21 | Begins to look for patch for Closure-62...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #21 | Hash ID generated as batch_996500_Closure-62
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #21 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-62.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #21 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #21 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #21 / Step 3. Running ConFix...
+Checking out b12d1d64 to /data/sechang/temp/batch_996500_Closure-62/Closure OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff b12d1d64:1e070472..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-62b..................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #21 | [candidate metadata] > ConFix patch generation success
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #21 | Finished, and found a patch!
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #21 | === diff_file.txt starts ===
+differences made in src/com/google/javascript/jscomp/LightweightMessageFormatter.java:
+diff --git a/home/newwin0189/SPI/temp_result/batch_996500_Closure-62/Closure/src/com/google/javascript/jscomp/LightweightMessageFormatter.java b/home/newwin0189/SPI/temp_result/batch_996500_Closure-62/Closure/patches/0/src/com/google/javascript/jscomp/LightweightMessageFormatter.java
+index 5a4f884..8906793 100644
+--- a/home/newwin0189/SPI/temp_result/batch_996500_Closure-62/Closure/src/com/google/javascript/jscomp/LightweightMessageFormatter.java
++++ b/home/newwin0189/SPI/temp_result/batch_996500_Closure-62/Closure/patches/0/src/com/google/javascript/jscomp/LightweightMessageFormatter.java
+@@ -95,7 +95,7 @@ public class LightweightMessageFormatter extends AbstractMessageFormatter {
+       // charno == sourceExpert.length() means something is missing
+       // at the end of the line
+       if (excerpt.equals(LINE)
+-          && 0 <= charno && charno < sourceExcerpt.length()) {
++          && 0 <= charno && error.lineNumber < sourceExcerpt.length()) {
+         for (int i = 0; i < charno; i++) {
+           char c = sourceExcerpt.charAt(i);
+           if (Character.isWhitespace(c)) {
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #21 | === diff_file.txt ends ===
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #21 | Elapsed Time : 0:19:59.234067
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #22 | Begins to look for patch for Closure-65...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #22 | Hash ID generated as batch_996500_Closure-65
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #22 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-65.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #22 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #22 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #22 / Step 3. Running ConFix...
+Checking out 48aea0ff to /data/sechang/temp/batch_996500_Closure-65/Closure OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 48aea0ff:9465f913..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-65b..................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #22 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #22 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #22 | Elapsed Time : 0:10:03.937855
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #23 | Begins to look for patch for Closure-67...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #23 | Hash ID generated as batch_996500_Closure-67
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #23 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-67.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #23 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #23 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #23 / Step 3. Running ConFix...
+Checking out aa89d05b to /data/sechang/temp/batch_996500_Closure-67/Closure OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff aa89d05b:8777edb9..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-67b..................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #23 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #23 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #23 | Elapsed Time : 0:04:30.769580
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #24 | Begins to look for patch for Closure-69...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #24 | Hash ID generated as batch_996500_Closure-69
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #24 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-69.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #24 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #24 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #24 / Step 3. Running ConFix...
+Checking out 63df133d to /data/sechang/temp/batch_996500_Closure-69/Closure OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 63df133d:036f2173..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-69b..................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #24 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #24 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #24 | Elapsed Time : 0:04:10.738291
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #25 | Begins to look for patch for Closure-70...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #25 | Hash ID generated as batch_996500_Closure-70
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #25 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-70.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #25 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #25 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #25 / Step 3. Running ConFix...
+Checking out ec4a34c2 to /data/sechang/temp/batch_996500_Closure-70/Closure OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff ec4a34c2:7433d30a..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-70b..................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #25 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #25 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #25 | Elapsed Time : 0:17:58.018482
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #26 | Begins to look for patch for Closure-71...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #26 | Hash ID generated as batch_996500_Closure-71
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #26 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-71.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #26 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #26 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #26 / Step 3. Running ConFix...
+Checking out db1fdf97 to /data/sechang/temp/batch_996500_Closure-71/Closure OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff db1fdf97:c498ecb7..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-71b..................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at com.github.thwak.confix.tree.Node.copy(Node.java:170)
+	at com.github.thwak.confix.tree.TreeUtils.deepCopy(TreeUtils.java:448)
+	at com.github.thwak.confix.tree.TreeUtils.deepCopy(TreeUtils.java:450)
+	at com.github.thwak.confix.tree.TreeUtils.deepCopy(TreeUtils.java:450)
+	at com.github.thwak.confix.tree.TreeUtils.deepCopy(TreeUtils.java:450)
+	at com.github.thwak.confix.tree.TreeUtils.deepCopy(TreeUtils.java:450)
+	at com.github.thwak.confix.tree.TreeUtils.deepCopy(TreeUtils.java:450)
+	at com.github.thwak.confix.tree.TreeUtils.deepCopy(TreeUtils.java:450)
+	at com.github.thwak.confix.pool.Converter.convert(Converter.java:374)
+	at com.github.thwak.confix.pool.Converter.convert(Converter.java:295)
+	at com.github.thwak.confix.pool.ChangePoolGenerator.collect(ChangePoolGenerator.java:92)
+	at com.github.thwak.confix.pool.ChangePoolGenerator.collect(ChangePoolGenerator.java:66)
+	at com.github.thwak.confix.main.ConFix.setPoolFromSimFinResults(ConFix.java:418)
+	at com.github.thwak.confix.main.ConFix.main(ConFix.java:122)
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ! ConFix Launch failed.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #26 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #26 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #26 | Elapsed Time : 0:26:22.925184
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #27 | Begins to look for patch for Closure-73...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #27 | Hash ID generated as batch_996500_Closure-73
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #27 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-73.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #27 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #27 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #27 / Step 3. Running ConFix...
+Checking out ee834409 to /data/sechang/temp/batch_996500_Closure-73/Closure OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff ee834409:760bded3..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-73b..................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #27 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #27 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #27 | Elapsed Time : 0:18:32.251894
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #28 | Begins to look for patch for Closure-77...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #28 | Hash ID generated as batch_996500_Closure-77
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #28 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-77.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #28 | Step 1. Running Change Collector...
+Traceback (most recent call last):
+  File "launcher.py", line 245, in run_CC
+    subprocess.run([launch_command, os.path.join(case['target_dir'], "properties", "CC.properties")], cwd = os.path.join(conf_SPI['root'], "pkg", "ChangeCollector", "app", "bin"), stdout = f, check = True)
+  File "/usr/lib/python3.6/subprocess.py", line 438, in run
+    output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['./app', '/home/newwin0189/SPI/temp_result/batch_996500_Closure-77/properties/CC.properties']' returned non-zero exit status 1.
+
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #28 | [candidate metadata] > ConFix patch generation fail
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #28 | Aborted during progresses!
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #28 | Failed cause: Module 'Change Collector' launch failed.
+Traceback (most recent call last):
+  File "launcher.py", line 448, in main
+    raise RuntimeError("Module 'Change Collector' launch failed.")
+RuntimeError: Module 'Change Collector' launch failed.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #28 | Elapsed Time : 0:00:04.596659
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #29 | Begins to look for patch for Closure-81...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #29 | Hash ID generated as batch_996500_Closure-81
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #29 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-81.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #29 | Step 1. Running Change Collector...
+Traceback (most recent call last):
+  File "launcher.py", line 245, in run_CC
+    subprocess.run([launch_command, os.path.join(case['target_dir'], "properties", "CC.properties")], cwd = os.path.join(conf_SPI['root'], "pkg", "ChangeCollector", "app", "bin"), stdout = f, check = True)
+  File "/usr/lib/python3.6/subprocess.py", line 438, in run
+    output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['./app', '/home/newwin0189/SPI/temp_result/batch_996500_Closure-81/properties/CC.properties']' returned non-zero exit status 1.
+
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #29 | [candidate metadata] > ConFix patch generation fail
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #29 | Aborted during progresses!
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #29 | Failed cause: Module 'Change Collector' launch failed.
+Traceback (most recent call last):
+  File "launcher.py", line 448, in main
+    raise RuntimeError("Module 'Change Collector' launch failed.")
+RuntimeError: Module 'Change Collector' launch failed.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #29 | Elapsed Time : 0:00:05.011640
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #30 | Begins to look for patch for Closure-82...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #30 | Hash ID generated as batch_996500_Closure-82
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #30 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-82.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #30 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #30 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #30 / Step 3. Running ConFix...
+Checking out a857aec2 to /data/sechang/temp/batch_996500_Closure-82/Closure OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff a857aec2:1a7fbd18..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-82b..................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #30 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #30 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #30 | Elapsed Time : 1:00:10.212490
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #31 | Begins to look for patch for Closure-86...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #31 | Hash ID generated as batch_996500_Closure-86
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #31 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-86.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #31 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #31 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #31 / Step 3. Running ConFix...
+Checking out 0907b661 to /data/sechang/temp/batch_996500_Closure-86/Closure OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 0907b661:5cd9c1ef..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-86b..................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #31 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #31 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #31 | Elapsed Time : 0:08:22.299341
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #32 | Begins to look for patch for Closure-91...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #32 | Hash ID generated as batch_996500_Closure-91
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #32 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-91.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #32 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #32 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #32 / Step 3. Running ConFix...
+Checking out 7eb2d84d to /data/sechang/temp/batch_996500_Closure-91/Closure OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 7eb2d84d:8eee751f..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-91b..................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #32 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #32 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #32 | Elapsed Time : 0:03:47.654937
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #33 | Begins to look for patch for Closure-92...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #33 | Hash ID generated as batch_996500_Closure-92
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #33 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-92.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #33 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #33 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #33 / Step 3. Running ConFix...
+Checking out 8980b600 to /data/sechang/temp/batch_996500_Closure-92/Closure OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 8980b600:39dde4ca..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-92b..................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #33 | [candidate metadata] > ConFix patch generation success
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #33 | Finished, and found a patch!
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #33 | === diff_file.txt starts ===
+differences made in src/com/google/javascript/jscomp/ProcessClosurePrimitives.java:
+diff --git a/home/newwin0189/SPI/temp_result/batch_996500_Closure-92/Closure/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java b/home/newwin0189/SPI/temp_result/batch_996500_Closure-92/Closure/patches/0/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java
+index c929a36..ea9f688 100644
+--- a/home/newwin0189/SPI/temp_result/batch_996500_Closure-92/Closure/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java
++++ b/home/newwin0189/SPI/temp_result/batch_996500_Closure-92/Closure/patches/0/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java
+@@ -786,7 +786,7 @@ class ProcessClosurePrimitives extends AbstractPostOrderCallback
+         } else {
+           // In this case, the name was implicitly provided by two independent
+           // modules. We need to move this code up to a common module.
+-          int indexOfDot = namespace.indexOf('.');
++          int indexOfDot = GOOG.indexOf('.');
+           if (indexOfDot == -1) {
+             // Any old place is fine.
+             compiler.getNodeForCodeInsertion(minimumModule)
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #33 | === diff_file.txt ends ===
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #33 | Elapsed Time : 1:08:17.288991
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #34 | Begins to look for patch for Closure-104...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #34 | Hash ID generated as batch_996500_Closure-104
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #34 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-104.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #34 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #34 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #34 / Step 3. Running ConFix...
+Checking out 67289ae4 to /data/sechang/temp/batch_996500_Closure-104/Closur OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 67289ae4:1be1c263..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-104b.................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #34 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #34 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #34 | Elapsed Time : 0:16:02.560455
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #35 | Begins to look for patch for Closure-107...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #35 | Hash ID generated as batch_996500_Closure-107
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #35 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-107.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #35 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #35 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #35 / Step 3. Running ConFix...
+Checking out 49e9565f to /data/sechang/temp/batch_996500_Closure-107/Closur OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 49e9565f:aae547f4..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-107b.................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #35 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #35 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #35 | Elapsed Time : 0:12:27.650606
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #36 | Begins to look for patch for Closure-111...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #36 | Hash ID generated as batch_996500_Closure-111
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #36 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-111.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #36 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #36 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #36 / Step 3. Running ConFix...
+Checking out 6f981f77 to /data/sechang/temp/batch_996500_Closure-111/Closur OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 6f981f77:450f0f6e..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-111b.................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at com.github.thwak.confix.tree.Node.copy(Node.java:170)
+	at com.github.thwak.confix.tree.TreeUtils.deepCopy(TreeUtils.java:448)
+	at com.github.thwak.confix.tree.TreeUtils.deepCopy(TreeUtils.java:450)
+	at com.github.thwak.confix.tree.TreeUtils.deepCopy(TreeUtils.java:450)
+	at com.github.thwak.confix.tree.TreeUtils.deepCopy(TreeUtils.java:450)
+	at com.github.thwak.confix.pool.Converter.convert(Converter.java:374)
+	at com.github.thwak.confix.pool.Converter.convert(Converter.java:295)
+	at com.github.thwak.confix.pool.ChangePoolGenerator.collect(ChangePoolGenerator.java:92)
+	at com.github.thwak.confix.pool.ChangePoolGenerator.collect(ChangePoolGenerator.java:66)
+	at com.github.thwak.confix.main.ConFix.setPoolFromSimFinResults(ConFix.java:418)
+	at com.github.thwak.confix.main.ConFix.main(ConFix.java:122)
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ! ConFix Launch failed.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #36 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #36 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #36 | Elapsed Time : 0:27:21.930341
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #37 | Begins to look for patch for Closure-113...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #37 | Hash ID generated as batch_996500_Closure-113
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #37 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-113.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #37 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #37 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #37 / Step 3. Running ConFix...
+Checking out 0fb76a81 to /data/sechang/temp/batch_996500_Closure-113/Closur OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 0fb76a81:fa1e469d..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-113b.................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #37 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #37 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #37 | Elapsed Time : 0:51:47.946023
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #38 | Begins to look for patch for Closure-114...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #38 | Hash ID generated as batch_996500_Closure-114
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #38 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-114.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #38 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #38 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #38 / Step 3. Running ConFix...
+Checking out 5f03c681 to /data/sechang/temp/batch_996500_Closure-114/Closur OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 5f03c681:a44af454..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-114b.................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #38 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #38 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #38 | Elapsed Time : 0:04:50.769800
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #39 | Begins to look for patch for Closure-118...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #39 | Hash ID generated as batch_996500_Closure-118
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #39 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-118.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #39 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #39 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #39 / Step 3. Running ConFix...
+Checking out f17961ae to /data/sechang/temp/batch_996500_Closure-118/Closur OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff f17961ae:046e0b22..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-118b.................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #39 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #39 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #39 | Elapsed Time : 0:04:15.541334
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #40 | Begins to look for patch for Closure-119...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #40 | Hash ID generated as batch_996500_Closure-119
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #40 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-119.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #40 | Step 1. Running Change Collector...
+Traceback (most recent call last):
+  File "launcher.py", line 245, in run_CC
+    subprocess.run([launch_command, os.path.join(case['target_dir'], "properties", "CC.properties")], cwd = os.path.join(conf_SPI['root'], "pkg", "ChangeCollector", "app", "bin"), stdout = f, check = True)
+  File "/usr/lib/python3.6/subprocess.py", line 438, in run
+    output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['./app', '/home/newwin0189/SPI/temp_result/batch_996500_Closure-119/properties/CC.properties']' returned non-zero exit status 1.
+
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #40 | [candidate metadata] > ConFix patch generation fail
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #40 | Aborted during progresses!
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #40 | Failed cause: Module 'Change Collector' launch failed.
+Traceback (most recent call last):
+  File "launcher.py", line 448, in main
+    raise RuntimeError("Module 'Change Collector' launch failed.")
+RuntimeError: Module 'Change Collector' launch failed.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #40 | Elapsed Time : 0:00:04.559494
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #41 | Begins to look for patch for Closure-120...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #41 | Hash ID generated as batch_996500_Closure-120
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #41 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-120.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #41 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #41 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #41 / Step 3. Running ConFix...
+Checking out 0123fd53 to /data/sechang/temp/batch_996500_Closure-120/Closur OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 0123fd53:9f890320..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-120b.................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #41 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #41 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #41 | Elapsed Time : 0:10:26.176782
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #42 | Begins to look for patch for Closure-123...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #42 | Hash ID generated as batch_996500_Closure-123
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #42 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-123.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #42 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #42 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #42 / Step 3. Running ConFix...
+Checking out 8d11b8cc to /data/sechang/temp/batch_996500_Closure-123/Closur OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 8d11b8cc:60dac870..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-123b.................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #42 | [candidate metadata] > ConFix patch generation success
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #42 | Finished, and found a patch!
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #42 | === diff_file.txt starts ===
+differences made in src/com/google/javascript/jscomp/CodeGenerator.java:
+diff --git a/home/newwin0189/SPI/temp_result/batch_996500_Closure-123/Closure/src/com/google/javascript/jscomp/CodeGenerator.java b/home/newwin0189/SPI/temp_result/batch_996500_Closure-123/Closure/patches/0/src/com/google/javascript/jscomp/CodeGenerator.java
+index 54eb5cf..7828d3a 100644
+--- a/home/newwin0189/SPI/temp_result/batch_996500_Closure-123/Closure/src/com/google/javascript/jscomp/CodeGenerator.java
++++ b/home/newwin0189/SPI/temp_result/batch_996500_Closure-123/Closure/patches/0/src/com/google/javascript/jscomp/CodeGenerator.java
+@@ -282,7 +282,7 @@ class CodeGenerator {
+       case Token.HOOK: {
+         Preconditions.checkState(childCount == 3);
+         int p = NodeUtil.precedence(type);
+-        Context rhsContext = Context.OTHER;
++        Context rhsContext = Context.IN_FOR_INIT_CLAUSE;
+         addExpr(first, p + 1, context);
+         cc.addOp("?", true);
+         addExpr(first.getNext(), 1, rhsContext);
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #42 | === diff_file.txt ends ===
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #42 | Elapsed Time : 0:28:19.883685
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #43 | Begins to look for patch for Closure-125...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #43 | Hash ID generated as batch_996500_Closure-125
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #43 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-125.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #43 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #43 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #43 / Step 3. Running ConFix...
+Checking out 8cef0018 to /data/sechang/temp/batch_996500_Closure-125/Closur OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 8cef0018:ddc12998..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-125b.................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #43 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #43 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #43 | Elapsed Time : 0:29:38.257334
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #44 | Begins to look for patch for Closure-129...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #44 | Hash ID generated as batch_996500_Closure-129
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #44 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-129.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #44 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #44 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #44 / Step 3. Running ConFix...
+Checking out 79a89065 to /data/sechang/temp/batch_996500_Closure-129/Closur OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 79a89065:4ff5d0b9..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-129b.................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #44 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #44 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #44 | Elapsed Time : 0:03:59.158282
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #45 | Begins to look for patch for Closure-130...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #45 | Hash ID generated as batch_996500_Closure-130
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #45 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-130.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #45 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #45 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #45 / Step 3. Running ConFix...
+Checking out 9fac3ccd to /data/sechang/temp/batch_996500_Closure-130/Closur OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 9fac3ccd:8a37f108..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-130b.................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #45 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #45 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #45 | Elapsed Time : 1:34:44.896735
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #46 | Begins to look for patch for Closure-132...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #46 | Hash ID generated as batch_996500_Closure-132
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #46 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-132.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #46 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #46 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #46 / Step 3. Running ConFix...
+Checking out 5b948590 to /data/sechang/temp/batch_996500_Closure-132/Closur OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 5b948590:f5a77bb4..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-132b.................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #46 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #46 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #46 | Elapsed Time : 0:22:48.413552
+| SPI  | Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #47 | Begins to look for patch for Closure-133...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #47 | Hash ID generated as batch_996500_Closure-133
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #47 | byproducts made in directory /home/newwin0189/SPI/temp_result/batch_996500_Closure-133.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #47 | Step 1. Running Change Collector...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #47 | Step 2. Running Longest Common subvector Extractor...
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #47 / Step 3. Running ConFix...
+Checking out 4fbbc47c to /data/sechang/temp/batch_996500_Closure-133/Closur OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 4fbbc47c:c5e6df9c..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-133b.................................... OK
+Running ant (export.dir.src.classes)....................................... OK
+
+Running ant (export.dir.bin.classes)....................................... OK
+
+Running ant (export.dir.src.tests)......................................... OK
+
+Running ant (export.cp.compile)............................................ OK
+
+Running ant (export.cp.test)............................................... OK
+
+Running ant (export.tests.all)............................................. OK
+
+Running ant (export.tests.relevant)........................................ OK
+
+Running ant (export.tests.trigger)......................................... OK
+
+| ConFix-runner    | Pre-launch configuration finished.
+| ConFix-runner    | Building ConFix...
+| ConFix-runner    | Successfully built ConFix.
+| ConFix-runner    | Launching ConFix...
+| ConFix-runner    | ConFix Launch finished.
+ConFix failed to generate plausible patch.
+| SPI  | !  > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #47 | [candidate metadata] > ConFix patch generation fail
+
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #47 | Finished, but failed to find a patch.
+| SPI  |    > Iteration #1 w/ Strategy 'flfreq + tcvfl / Case #47 | Elapsed Time : 0:30:29.242611
+| SPI  | Total Elapsed Time for strategy combination 'flfreq + tcvfl': 15:21:58.771063
+| SPI  | 6 succeeded, 41 failed.
